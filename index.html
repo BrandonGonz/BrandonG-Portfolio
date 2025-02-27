@@ -4,24 +4,127 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <nav>
-      <div class="topnav">
-        <h3>Brandon Gonzalez</h3>
-        <a class="active" href="/index.html">Home</a>
-        <a class="active" href="/about.html">About</a>
-        <a class="active" href="/projects.html">Projects</a>
-        <a class="active" href="/contact.html">Contact</a>
-      </div>
-    </nav>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <img
-      src="https://media.istockphoto.com/id/531725257/photo/fire-letter-on-black-background.jpg?s=612x612&w=0&k=20&c=Ar6ZGy50d5LYw5rQD4gZl_Nji-qj_OWZAuy3eWyB2So="
-    />
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem quo eveniet
-      officia odio nesciunt dicta soluta eligendi? Aliquam et beatae esse,
-      assumenda iure asperiores porro nam harum nobis qui mollitia?
-    </p>
+  <body class="home">
+    <nav class="nav">
+      <a href="#home-section" class="btn">Home</a>
+      <a href="#about-section" class="btn">About</a>
+      <a href="#project-section" class="btn">Projects</a>
+      <a href="#contact-form-section" class="btn">Contact</a>
+    </nav>
+
+    <div class="#" id="home-section">
+      <img
+        src="https://media.istockphoto.com/id/531725257/photo/fire-letter-on-black-background.jpg?s=612x612&w=0&k=20&c=Ar6ZGy50d5LYw5rQD4gZl_Nji-qj_OWZAuy3eWyB2So="
+        alt="Profile Image"
+      />
+      <p>
+        I'm Brandon Gonzalez, a software engineer, mentor, and advocate for
+        digital literacy and career transformation. My journey into technology
+        was unconventional—I discovered my passion for coding after years of
+        overcoming personal challenges and redefining my path. Through immersive
+        learning experiences, mentorship, and hands-on projects, I am
+        continuously developing my skills in front-end development, UX/UI
+        design, and agile methodologies, embracing every learning opportunity to
+        grow as a developer. My goal is to create impactful solutions that merge
+        creativity with functionality while helping others navigate their own
+        tech journeys.
+      </p>
+    </div>
+
+    <div class="#" id="about-section">
+      <div class="mission">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3IPXybi1nUKTT3TuLONP_wraHqkCtGvSh5Q&s"
+          alt="picture of a compass navigating towards the words Mission"
+        />
+        <div class="text">
+          <h2>Mission Statement</h2>
+          <p>
+            My mission is to leverage technology, mentorship, and community
+            engagement to empower individuals with limited access to
+            opportunities. Through resilience, continuous learning, and
+            collaboration, I aim to create meaningful change by breaking
+            barriers in tech and fostering a culture of inclusivity and
+            innovation.
+          </p>
+        </div>
+      </div>
+      <div class="about-me">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTultqHZP8uKFi52kHVHoI6qqKM98bgbgedeQ&s"
+          alt="three people hiking with a sunset"
+        />
+        <div class="text">
+          <h2>About Me</h2>
+          <p>
+            I’m someone who finds joy in both adventure and connection. Whether
+            it's playing basketball, going on hikes, or exploring new places, I
+            love staying active and discovering what the world has to offer. But
+            beyond that, I truly value quality over quantity—especially when it
+            comes to the time I spend with friends and family. There’s nothing
+            better than meaningful conversations, shared experiences, and
+            creating lasting memories. When I’m not out and about, I enjoy
+            unwinding with a good series, appreciating the storytelling and
+            creativity that comes with it.
+          </p>
+        </div>
+      </div>
+      <div class="#" id="project-section">
+        <div class="Project-1">
+          <h2>Project 1</h2>
+          <img
+            src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1200,h=630,fit=crop,f=jpeg/m5KwjM3gobU40G3D/colorful-pastel-modern-personal-linkedin-banner-YX4y8xXQJPUvjVb0.png"
+          />
+        </div>
+        <div class="Project-2">
+          <h2>Project 2</h2>
+          <img
+            src="https://mir-s3-cdn-cf.behance.net/projects/404/4f7fb2144641409.Y3JvcCwyMDcxLDE2MjAsMTUsMA.png"
+          />
+        </div>
+        <div class="Project-3">
+          <h2>Project 3</h2>
+          <img
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1631513823629/buwJbUM0D.png"
+            alt="web-dev project"
+            width="400"
+          />
+        </div>
+        <div class="Project-4">
+          <h2>Project 4</h2>
+          <img
+            src="https://www.datocms-assets.com/48294/1603802175-1-personal-portfolio-of-thibaut-foussard.png?auto=format"
+            alt="web-dev project"
+            width="400"
+          />
+        </div>
+      </div>
+      <div class="contact-form-section" id="contact-form-section">
+        <h2>Contact</h2>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+        <div class="contact-info">
+          <h2>My Contact Information</h2>
+          <p><strong>Email:</strong> brandon@firme.com</p>
+          <p><strong>Phone:</strong> (123) 456-7890</p>
+          <p><strong>Location:</strong> Los Angeles, CA</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

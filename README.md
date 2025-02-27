@@ -16,3 +16,5 @@ Contact Form: Allows visitors to reach out via a form with name, email, and mess
 🚀 Setup & Installation 1. Clone the repository:
 git clone https://github.com/BrandonGonz/BrandonG-Portfolio.git
 Open the project folder and launch index.html in a browser.
+
+![Figma Wireframe](<images/figma Wireframes.png>)
